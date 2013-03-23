@@ -2,13 +2,59 @@
 @include global-reset;
 @include reset-html5;
 
+html {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 header {
-  background-color: #CCC;
+  background: rgb(155,155,155); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(155,155,155,1) 88%, rgba(191,191,191,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(88%,rgba(155,155,155,1)), color-stop(100%,rgba(191,191,191,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(155,155,155,1) 88%,rgba(191,191,191,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(155,155,155,1) 88%,rgba(191,191,191,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(155,155,155,1) 88%,rgba(191,191,191,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(155,155,155,1) 88%,rgba(191,191,191,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9b9b', endColorstr='#bfbfbf',GradientType=0 ); /* IE6-9 */
+  box-shadow: 0 1px 4px 1px #666;
 
   hgroup {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+
+    h1 {
+      display: inline-block;
+      font-size: 40px;
+      font-weight: bold;
+
+      &:hover {
+        margin-top: 1px;
+        margin-left: 1px;
+      }
+
+      a {
+        color: #666;
+        text-decoration: none;
+        text-shadow: 1px 1px 0px #fff, 2px 2px 2px #444;
+        display: inline-block;
+        padding-bottom: 1px;
+
+        &:hover {
+          text-shadow: 1px 1px 0px #444;
+          padding-bottom: 0;
+        }
+      }
+    }
+
+    h2 {
+      display: inline-block;
+      margin-left: 10px;
+      font-size: 18px;
+      font-style: italic;
+      color: #fff;
+      text-shadow: 0px 0px 2px black;
+    }
   }
 }
 
@@ -17,9 +63,21 @@ header {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    border-left: 1px solid #CCC;
-    border-right: 1px solid #CCC;
     padding: 10px 0 10px 10px;
+
+    .wrapper {
+      width: 188px;
+      display: inline-block;
+
+      &.double {
+        width: 385px;
+      }
+
+      &.squared {
+        width: 379px;
+        height: 384px;
+      }
+    }
 
     .tile {
       height: 182px;
@@ -30,6 +88,56 @@ header {
       display: inline-block;
       position: relative;
       background-image: url(http://i.perezhilton.com/wp-content/uploads/2012/07/google-senses-cat-videos-copy__oPt.jpg);
+      background-size: 100%;
+      box-shadow: inset 0px 0px 1px 1px #555, inset 1px 1px 2px 1px #FFF;
+      border-radius: 4px;
+      overflow: hidden;
+
+      -webkit-transition: all 300ms ease-in-out;
+         -moz-transition: all 300ms ease-in-out;
+          -ms-transition: all 300ms ease-in-out;
+           -o-transition: all 300ms ease-in-out;
+              transition: all 300ms ease-in-out; /* custom */
+
+      &.delay1 {
+        -webkit-transition-delay: 0.25s;
+        -moz-transition-delay: 0.25s;
+        -o-transition-delay: 0.25s;
+        transition-delay: 0.25s;
+      }
+
+      &.delay2 {
+        -webkit-transition-delay: 0.5s;
+        -moz-transition-delay: 0.5s;
+        -o-transition-delay: 0.5s;
+        transition-delay: 0.5s;
+      }
+
+      &.delay3 {
+        -webkit-transition-delay: 0.75s;
+        -moz-transition-delay: 0.75s;
+        -o-transition-delay: 0.75s;
+        transition-delay: 0.75s;
+      }
+
+      &.delay4 {
+        -webkit-transition-delay: 1s;
+        -moz-transition-delay: 1s;
+        -o-transition-delay: 1s;
+        transition-delay: 1s;
+      }
+
+      &.loading {
+        opacity: 0;
+      }
+
+      &.selected {
+        -moz-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+      }
 
       &.double {
         width: 374px;
@@ -40,6 +148,38 @@ header {
         height: 374px;
       }
 
+      .veil {
+        -webkit-transition: opacity 200ms ease-in-out;
+           -moz-transition: opacity 200ms ease-in-out;
+            -ms-transition: opacity 200ms ease-in-out;
+             -o-transition: opacity 200ms ease-in-out;
+                transition: opacity 200ms ease-in-out; /* custom */
+
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        opacity: 0;
+
+        &.red {
+          background-color: rgb(255,0,0);
+        }
+        &.green {
+          background-color: rgb(0,255,0);
+        }
+        &.blue {
+          background-color: rgb(0,0,255);
+        }
+        &.yellow {
+          background-color: rgb(255,255,0);
+        }
+      }
+
+      &:hover .veil {
+        opacity: 0.4;
+      }
+
       .title {
         position: absolute;
         width: 100%;
@@ -47,7 +187,18 @@ header {
         color: white;
         padding: 10px;
         font-size: 20px;
+        background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.77) 29%, rgba(0,0,0,0.77) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(29%,rgba(0,0,0,0.77)), color-stop(100%,rgba(0,0,0,0.77))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.77) 29%,rgba(0,0,0,0.77) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.77) 29%,rgba(0,0,0,0.77) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.77) 29%,rgba(0,0,0,0.77) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.77) 29%,rgba(0,0,0,0.77) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#c4000000',GradientType=0 ); /* IE6-9 */
       }
+    }
+
+    #about {
+      background-image: url(https://sphotos-b.xx.fbcdn.net/hphotos-ash4/430378_10150835251852571_583992173_n.jpg);
     }
   }
 }
