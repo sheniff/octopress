@@ -1,3 +1,53 @@
 @import "compass";
 @include global-reset;
 @include reset-html5;
+
+header {
+  background-color: #CCC;
+
+  hgroup {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+#main {
+  #content {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    padding: 10px 0 10px 10px;
+
+    .tile {
+      height: 182px;
+      width: 182px;
+      background-color: #CCC;
+      margin-right: 6px;
+      margin-bottom: 10px;
+      display: inline-block;
+      position: relative;
+      background-image: url(http://i.perezhilton.com/wp-content/uploads/2012/07/google-senses-cat-videos-copy__oPt.jpg);
+
+      &.double {
+        width: 374px;
+      }
+
+      &.squared {
+        width: 374px;
+        height: 374px;
+      }
+
+      .title {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+      }
+    }
+  }
+}
