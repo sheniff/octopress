@@ -5,6 +5,7 @@ tags:
 - Chorradas
 status: publish
 type: post
+comments: true
 published: true
 meta:
   _designfolio_column_layout: default
