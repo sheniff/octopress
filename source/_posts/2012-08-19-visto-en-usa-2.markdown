@@ -12,6 +12,7 @@ meta:
 <em>¡Ojo! Eso de "Día 1" no significa que vaya a estar publicando una entrada por cada día (¿estamos locos o qué?)</em>
 
 Hallándose un servidor recién levantado en su primer día a más de 9000 Km de casa (concretamente, 9313.608390580228 Km, que me he documentado!), y más perdido que un pavo en un garaje, me propongo a pisar la calle de la que será mi ciudad los próximos 6 meses (y pico).
+<!-- more -->
 
 Y qué es lo primero que me encuentro? que casi tropiezo y caigo rodando cuesta abajo. Y esto en San Francisco supone básicamente acabar en el puerto con los leones marinos (que sí, que hay!!) ya que no pensaba yo que me encontraría con tamañas <strong>señoras cuestas</strong> en esta bendita ciudad.
 

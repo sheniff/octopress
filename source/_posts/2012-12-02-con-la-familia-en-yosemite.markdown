@@ -15,6 +15,7 @@ meta:
   _designfolio_portfolio_columns: ''
 ---
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/12/2012-11-23-14.49.27.jpg"><img class="alignright size-medium wp-image-428" title="2012-11-23 14.49.27" src="http://sheniff.es/public/wp/wp-content/uploads/2012/12/2012-11-23-14.49.27-e1354503384676-100x300.jpg" alt="" width="100" height="300" /></a>¡Esta semana pasada han venido mis padres y mi hermano de visita! Ha sido una alegría tremenda después de tanto tiempo separados. Han sido sólo tres meses, si, ¡pero uno no se da cuenta de lo que puede llegar a echar de menos a la familia hasta que no los separan 12.000 Km (cifra totalmente inventada)!
+<!-- more -->
 
 Aprovechando su visita, pensé "qué menos que organizar algún viaje en familia!" ya que encima las fechas coincidían con la festividad de Acción de Gracias americana (si, esa en la que se cena pavo en familia y esas cosas) y la ocasión lo merecía. Añadir a esto que aquí Thanks Giving Day y el día siguiente son fiesta y se nos presentaba un señor puente de 4 diítas de merecer :)
 

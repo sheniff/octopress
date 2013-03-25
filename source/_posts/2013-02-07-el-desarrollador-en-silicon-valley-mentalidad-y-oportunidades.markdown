@@ -15,6 +15,7 @@ meta:
   _designfolio_portfolio_columns: ''
 ---
 Voy a hacer caso a mi buen amigo Antares con el tema de la constancia en el blog, que ayer me decía: "Escribe entradas cortas, pero al menos escribe!" sin falta de razón. Aprovecharé el rato de desayuno o los primeros minutos en la oficina para escribir un poco :)
+<!-- more -->
 
 Ayer gran parte del equipo de Tapjoy San Francisco nos juntamos a comer para despedir a 3 compañeros que esta semana dejan la empresa. ¿El motivo? curiosamente no es una mala situación laboral (yo doy fe), stress o inestabilidad, sino justamente lo contrario: dejan la empresa por <strong>desarrollarse personalmente</strong>, entrando a formar parte de la fundación de sus propias empresas nacientes (Start Ups).
 

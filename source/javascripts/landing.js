@@ -11,7 +11,7 @@ $(document).ready(function(){
     },
 
     loadSelect: function(){
-      $('#content').on('click', '.tile', function(e){
+      $('#content').on('click', '.tile.interactive', function(e){
         e.preventDefault();
         $(e.currentTarget).toggleClass('selected');
       })

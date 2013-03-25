@@ -12,6 +12,7 @@ meta:
 Esta es una entrada que llevo tiempo queriendo escribir y nunca he encontrado ni el momento ni las ganas. Hasta ahora, claro :)
 
 Desde que estuve colaborando en AIESEC Granada como vicepresidente del área de comunicación vengo dándole vueltas a un tema relacionado con los negocios y sobre todo, con la presencia en Internet, como epicentro comercial multinacional que es del mundo contemporáneo.
+<!-- more -->
 
 En aquel entonces me encontraba tratando de reflotar la imágen virtual de la asociación y su presencia en la web, y surgieron para ello
 montones de ideas: crear un Twitter, profesionalizar la página de Facebook con contenido de calidad, crear un blog con información llamativa e interesante, etc... Todas ellas muy atractivas y que sin duda pensaba que aumentarían la difusión de la marca de AIESEC como queríamos.

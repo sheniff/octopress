@@ -10,6 +10,7 @@ meta:
   _edit_last: '1'
 ---
 Hoy el equipo de <a href="http://www.stepone.com/" target="_blank">StepOne</a> en San Francisco nos ha reunido a los participantes del programa "<a href="http://www.stepone.com/jovenes/" target="_blank">Jóvenes con Futuro</a>" que ya estamos en la ciudad para desayunar en una cafetería genial (<a href="http://ritualroasters.com/">Ritual Coffee</a>) del barrio latino de Mission, donde hemos tenido la enorme suerte de compartir un agradable café con <a title="Nacho Soto" href="http://www.nachosoto.com/" target="_blank">Nacho Soto</a>, participante del programa el año pasado (y un fuera de serie, el tío) y con <a title="Bernardo Hernandez webpage" href="http://www.bernardohernandez.com/">Bernardo Hernández</a>, fundador de StepOne, Director de Producto de Google y Director General de Zagat (para el que esto le parezca poco, aquí dejo su <a title="Bernardo Hernandez at Wikipedia" href="http://es.wikipedia.org/wiki/Bernardo_Hern%C3%A1ndez_Gonz%C3%A1lez">página en Wikipedia</a>).
+<!-- more -->
 
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/08/conBernardoHernandez.jpg"><img class="aligncenter size-medium wp-image-333" title="conBernardoHernandez" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/conBernardoHernandez-300x224.jpg" alt="" width="300" height="224" /></a>
 

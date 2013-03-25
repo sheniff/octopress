@@ -12,6 +12,7 @@ meta:
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/08/2012-08-16-17.19.53.jpg"><img class="alignleft size-medium wp-image-306" title="money" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/2012-08-16-17.19.53-225x300.jpg" alt="" width="225" height="300" /></a>
 
 Tras un viaje relativamente aparatoso y un sueño reparador, me dispuse a pasar mi primer día en San Francisco. A punto de salir por la puerta (si, donde casi me mato con las cuestas del post anterior), agradecí una vez a mi genial cerebro no haberse planteado ni por un momento la posibilidad de haber mirado durante mis preparativos en España un planico o una guía de viaje para saber al menos llegar hasta el Centro de Visitantes (si es que es pa matarme...).
+<!-- more -->
 
 Afortunadamente, el colega que me prestó el piso durante este primer mes tuvo la brillante idea de dejar una guía suya en la mesita que me salvó la vida. Gracias Pol, tío :)
 

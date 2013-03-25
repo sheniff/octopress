@@ -11,9 +11,8 @@ meta:
 ---
 En la vida me hubiera yo figurado que la narración de un mundano paseo en bici iba a generar tanta espectación...
 
-&nbsp;
-
 Es cierto que me he tomado mi tiempo para escribir la segunda parte de esta experiencia, pero también es verdad que me he visto abrumado por las peticiones (directas e indirectas) de que escribiera la segunda parte del "relatillo", por llamarlo de alguna forma, y creo que me ha podido la presión. ¡Así que ya no lo escribo!, ¡Y también le voy a decir a Antena3 que cancele la adaptación a la pequeña pantalla! Ahora voy a hablar de... <em>el cultivo de la guayaba en climas frios</em>.
+<!-- more -->
 
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/09/guayaba_fruta.jpg"><img class="aligncenter size-medium wp-image-383" title="guayaba_fruta" src="http://sheniff.es/public/wp/wp-content/uploads/2012/09/guayaba_fruta-300x218.jpg" alt="" width="300" height="218" /></a>
 

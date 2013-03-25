@@ -12,6 +12,7 @@ meta:
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/09/logo_facebook.jpg"><img class="aligncenter size-medium wp-image-392" title="logo_facebook" src="http://sheniff.es/public/wp/wp-content/uploads/2012/09/logo_facebook-300x112.jpg" alt="" width="300" height="112" /></a>
 
 Creo que hay bastante gente a la que no se lo he dicho. Así que aprovecho hoy que me veo inspirado, literariamente hablando, para informar de que en mi perfil de Facebook he creado un álbum donde voy subiendo mis fotografías en San Francisco y alrededores.
+<!-- more -->
 
 Se puede acceder a través del enlace a mi perfil de facebook que aparece en esta misma página a la derecha (arriba si la veis desde un móvil) o desde el siguiente enlace, que permite acceder directamente al álbum<strong> "Livin' in San Francisco"</strong>.
 

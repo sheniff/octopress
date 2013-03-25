@@ -13,6 +13,7 @@ meta:
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/08/androidfundasia17.jpg"><img class="size-full wp-image-338 alignright" title="androidfundasia17" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/androidfundasia17.jpg" alt="" width="288" height="259" /></a>El pasado Jueves 23 (¿¿y ya estamos a Sábado?? Pooor Dios... ¿¿porqué nadie me dijo que en San Francisco los días son de 8 horas??) fuí invitado a visitar TapJoy aún cuando quedan algunos días para que empiece mi contrato allí.
 
 Mis supervisores, Bob Huynh y Van Pham me mostraron todas las instalaciones y me invitaron a comer para darme la bienvenida al equipo y a la empresa.
+<!-- more -->
 
 Creo que soy capaz de resumir lo que pienso de aquel día en una única palabra: <strong>impresionante</strong> (bueno sí, Jesulín, que para tí son dos... muuuuy bien... :).
 

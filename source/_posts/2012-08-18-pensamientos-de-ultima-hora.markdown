@@ -13,6 +13,7 @@ meta:
 <em>Pre-postdata (¿eso existe?): Esto lo escribí ayer en el avión, pero no lo he podido publicar hasta tener Internet. ¡Mis disculpas!</em>
 
 Escribo estas líneas sobre volando el Atlántico, a unos 12 kilómetros de altura, con destino a Filadelfia, primera parada en mi camino a San Francisco.
+<!-- more -->
 
 <img class="alignright size-medium wp-image-267" title="A US Airways plane" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/240109-US-Airways-N201UU-300x199.jpg" alt="A US Airways plane" width="300" height="199" />No se si será por la altura, el cacao mental que tengo después de tragarme "chronicle" y "whrath of titans" seguidas en V.O. sin subtítulos o el mareo que me genera el tufo a ganchitos que desprende la señora de al lado (dicho sea de paso: señora, deje de zampar que mi asiento lo he pagado yo y ya casi estamos empezando a compartirlo, con el "esparcimiento"...)  pero el caso es que me ha dado por filosofar un poco :) y como ya dije que en este blog iba a haber de todo según me diera, pues ahora a tocado "sentimientos"! Jajaja!
 

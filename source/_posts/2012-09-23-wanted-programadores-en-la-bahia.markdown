@@ -18,6 +18,7 @@ meta:
 <img class="size-medium wp-image-411 alignright" title="developers-wanted" src="http://sheniff.es/public/wp/wp-content/uploads/2012/09/developers-wanted-300x129.jpeg" alt="" width="300" height="129" />
 
 Desde el mismo día que comencé a trabajar en San Francisco, ha habido un tema que no ha dejado de sorprenderme y que ahora me gustaría compartir en este blog: <strong>San Francisco tiene déficit de desarrolladores.</strong>
+<!-- more -->
 
 No es una impresión, es un hecho. Se percibe en el ambiente y se ve cada día: las empresas se aferran con uñas y dientes a cada nuevo candidato que encuentran, a fin de incorporarlo a sus filas si cumple con unos requisitos que, a mi parecer (y yo no me considero a mí mismo un brillante desarrollador, que conste), no son nada descabellados incluso para un recién titulado que se haya tomado su carrera un poquito en serio... Y con "un poquito en serio" no me refiero a notas brillantes sino a verdadera motivación. Hablo de proyectos personales (da igual si terminados o no...), colaboraciones, asistencias a cursos y ponencias donde extender los conocimientos básicos de la carrera, "hackathones" y cosas por el estilo.
 

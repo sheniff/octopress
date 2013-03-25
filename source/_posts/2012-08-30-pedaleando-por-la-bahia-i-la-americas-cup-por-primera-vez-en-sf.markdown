@@ -12,6 +12,7 @@ meta:
 Hace unos días estuve con Antonio y Cristóbal visitando el famoso Golden Gate.
 
 <em><a href="http://sheniff.es/public/wp/wp-content/uploads/2012/08/barcos3.jpg"><img class="wp-image-361 alignright" title="barcos3" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/barcos3-300x225.jpg" alt="" width="180" height="135" /></a>Antonio y Cristóbal son dos colegas del programa, que les pongo ya nombre porque van a aparecer más veces que el anuncio de TriVaGo en la tele, y tanto "colegas de nuseque..." queda muy impersonal.</em>
+<!-- more -->
 
 Como hacía un día genial (y además lo teníamos planeado, así que ya podía tronar, que lo íbamos a hacer igual), alquilamos unas bicis en la zona del puerto y nos lanzamos al pedaleo desenfrenado bordeando toda la zona Noroeste de la Bahía, por muelles y parques. El destino: ¡atravesar el Golden Gate en bici y visitar la costa Este de la Bahía! (por carril bici, mamá, tranquila que no íbamos por mitad de la carretera :) ).
 

@@ -15,6 +15,7 @@ meta:
   _designfolio_portfolio_columns: ''
 ---
 Aprovechando el consejo de un amigo y viendo que realmente no me encontraba ni con tiempo ni con ganas de terminar de arreglar el diseño de mi página, he optado por encontrar uno que se adaptara a mis necesidades y ¡aquí está!
+<!-- more -->
 
 La verdad que estoy bastante contento con cómo ha quedado, aunque en móvil tiene fallitos que algún día corregiré (ja, ja).
 

@@ -12,6 +12,7 @@ meta:
 Hola a todos,
 
 madre mía... 3 días (para 4) sin escribir aquí... debíais pensar que me había comido un león marino (si, con lo fría que está el agua me voy a meter yo, jeeejeee!!) o me había visto envuelto en un tiroteo de bandas de esos tan americanos, ¿no? Pues no... Siento defraudar.
+<!-- more -->
 
 Los culpables de mi ausencia en Internet de los últimos días son los colegas del programa Jóvenes con Futuro que ya están llegando y acostumbrándose al entorno y los días no pasan igual acompañado que solo... Pasan 4 veces más deprisa, como si ya de por sí no me parecieran que tienen menos horas aquí los días que en España.
 

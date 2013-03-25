@@ -14,6 +14,7 @@ meta:
 Hoy hablando con mi familia me han sorprendido con una pregunta: <em>"Oye, ¿Cómo se ponen comentarios en tu blog? ¡Es que donde salen todos los mensajes que vas escribiendo no hay un sitio para comentar!"</em>.
 
 ¡Y con toda la razón! Si que hay dónde comentar, pero la verdad es que se me había pasado explicarlo...
+<!-- more -->
 
 La página en la que normalmente se ven todas las entradas de mi blog, una detrás de otra, podría decirse que es como un <strong>sumario de noticias</strong>, es sólo que, al poder ver los post que yo escribo ahí enteros, nadie se da cuenta (no les culpo) de que <strong>pulsando sobre el nombre de la entrada, se accede a otra página donde sólo aparece la entrada y un bloque al fondo para poner vuestros comentarios</strong>.
 

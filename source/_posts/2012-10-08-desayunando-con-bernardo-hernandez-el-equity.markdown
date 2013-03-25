@@ -15,6 +15,7 @@ meta:
   _designfolio_portfolio_columns: ''
 ---
 Este Sábado, Bernardo Hernández volvió a hacer un hueco en su apretada agenda para compartir con los Jóvenes con Futuro un agradable desayuno en la bahía. Como cabe esperar de alguien de su categoría, el tiempo que nos dedicó fue tremendamente enriquecedor, cargado de consejos y motivaciones que hacen volar las fantasías y coger energías al más negativo.
+<!-- more -->
 
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/10/2012-10-06-09.53.09.jpg"><img class="size-medium wp-image-419 alignright" title="2012-10-06 09.53.09" src="http://sheniff.es/public/wp/wp-content/uploads/2012/10/2012-10-06-09.53.09-300x225.jpg" alt="" width="300" height="225" /></a>
 

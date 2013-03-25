@@ -16,6 +16,7 @@ meta:
   _designfolio_portfolio_columns: ''
 ---
 Cuando aún nos estábamos preparando para venir a San Francisco (hace ya casi 6 meses... qué barbaridad!), en una de las charlas preparatorias que StepOne nos dio hablaron sobre las "Meet Ups": encuentros (generalmente de tecnología) que se celebran diariamente en la ciudad, organizados por grupos de usuarios de una cierta herramienta o tecnología.
+<!-- more -->
 
 No se trata de grandes eventos super organizados y caros, sino de reuniones semanales (y gratuitas) donde los responsables del grupo que organiza la quedada propone alguna charla interesante y la gente se reúne para aprender, conocer gente y generalmente, cenar pizza y cervecita por la patilla :D
 

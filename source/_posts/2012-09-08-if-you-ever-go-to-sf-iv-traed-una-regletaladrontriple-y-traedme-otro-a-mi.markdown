@@ -11,6 +11,7 @@ meta:
   _edit_last: '1'
 ---
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/09/base_multiple_3301.gran_.jpg"><img class="alignright size-medium wp-image-379" title="base_multiple_3301.gran" src="http://sheniff.es/public/wp/wp-content/uploads/2012/09/base_multiple_3301.gran_-300x225.jpg" alt="" width="300" height="225" /></a>Gran fallo que cometí en la preparación de mi equipaje al venir hace ya camino de un mes (como pasa el tiempo, tu...): no echar una regleta, de esas con un poquito de cable.
+<!-- more -->
 
 Cuando salimos de viaje, sea para mucho o poco tiempo (esto no entiende de largas o cortas estancias) tendemos a cargar con 9834 aparatejos eléctricos de media. Para los cuales requeriremos de eléctrico suministro...
 

@@ -12,6 +12,7 @@ meta:
 Resumen rápido del viaje Madrid --&gt; San Francisco.
 
 Cojo puntualísimamente el vuelo desde Madrid con destino Filadelfia, trasbordo necesario para pasar por aduana y coger un vuelo "doméstico" que me lleve hasta San Francisco. Hay que tener en cuenta que para que un vuelo hubiera llegado directo a SF desde Madrid, hubiera necesitado un remolque detrás cual caravana dominguera nada más que de combustible adicional, ya que hay un paseo...
+<!-- more -->
 
 El vuelo por el atlántico, genial, a 12 km de altura no ves ni agua en el océano, pero entre películas (en un flamante e ininteligible americano de calle) y escribiendo el post de antes, se me pasa relativamente pronto (las cabezadas de hora y media también dieron su juego en esto de acortar la espera).
 

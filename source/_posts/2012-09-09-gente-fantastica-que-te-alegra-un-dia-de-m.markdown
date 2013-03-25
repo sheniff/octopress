@@ -13,6 +13,7 @@ meta:
 Hallábame yo un día volviendo a casa a altas horas de la noche (serían las 20:00... es que eso aquí es tarde y además yo soy un "exagerao") en un tranvía en el que la advertencia "prohibido fumar" se convertía en una necesidad de no morir quemados ya que era completamente de madera.
 
 Me encontraba bastante alicaído, taciturno, gris, lúgubre, como el museo... (parafraseando a mi admirado Dani Rovira) ya que venía de ver mi enésimo piso, con la optimista sensación de que me habían vuelto a mandar finamente a la mierda y acordándome de lo agradable que es buscar piso en esta ciudad (que no todo iba a ser bueno aquí) cuando de repente oigo a una pareja joven hablando en español (de España, me refiero, latinos hay muchísimos).
+<!-- more -->
 
 Me hizo bastante ilusión así que, por mor de animarme un poco, entablé conversación con ellos. Acababan de llegar de vacaciones a la ciudad y mis escasos conocimientos de la zona (¡¡gracias, oh, capítulo de "Callejeros Viajeros en SF" por toda la sabiduría que me has aportado!!) me sirvieron para hacerles un poco de guía turístico por Financial District y North Beach. Ellos querían visitar esta zona y y, ya que son como mi barrio ahora, coincidimos en ruta y compartimos una agradable conversación.
 

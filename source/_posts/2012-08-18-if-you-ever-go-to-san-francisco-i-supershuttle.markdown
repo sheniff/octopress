@@ -10,6 +10,7 @@ meta:
   _edit_last: '1'
 ---
 Recomendaciones para la gente que venga a San Francisco. Aquí va al primera de ellas: usad el servicio <a title="Super Shuttle" href="http://www.supershuttle.com/" target="_blank">SuperShuttle</a> en el aeropuerto.
+<!-- more -->
 
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/08/supershuttle.jpg"><img class="alignleft size-full wp-image-288" title="supershuttle" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/supershuttle.jpg" alt="" width="200" height="125" /></a><a title="Super Shuttle" href="http://www.supershuttle.com/" target="_blank">SuperShuttle</a> es un servicio de mini-bus compartido que permite a los viajeros indicar la dirección exacta de la ciudad donde desean ser llevados y les dejan en la misma puerta por 17$.
 

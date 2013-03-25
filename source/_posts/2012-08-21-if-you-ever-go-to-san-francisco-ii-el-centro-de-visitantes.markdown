@@ -10,6 +10,7 @@ meta:
   _edit_last: '1'
 ---
 <a href="http://sheniff.es/public/wp/wp-content/uploads/2012/08/civ.jpg"><img class="alignleft size-medium wp-image-327" title="civ" src="http://sheniff.es/public/wp/wp-content/uploads/2012/08/civ-300x200.jpg" alt="Centro de información al visitante" width="300" height="200" /></a>Situado en pleno centro de San Francisco (<a title="market" href="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=San+Francisco+Visitor+Information+Center&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=68.558336,77.519531&amp;vpsrc=6&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=900+Market+St,+San+Francisco,+California+94102&amp;ll=37.78406,-122.407996&amp;spn=0.001075,0.001183&amp;z=20&amp;iwloc=A&amp;cid=18352853609152715498" target="_blank">Subterraneo de 900 Market Street</a>, sí, aquí las calles mantienen el nombre hastas las últimas consecuencias, de ahí que no sea raro encontrar un número 1200 y pico de una calle cualquiera...), se encuentra un punto de visita obligada el primer día que uno va a la ciudad, ya sea por vacaciones o por trabajo, el <a href="http://www.sanfrancisco.travel/about/Visitor-Information-Center.html" target="_blank">Centro de Información al Visitante de San Francisco</a>.
+<!-- more -->
 
 En dicha oficina se ofrece mucha información sobre puntos de interés, actividades a realizar y muchas más alternativas de ocio que igual no nos planteamos en un primer momento en la ciudad de las 43 colinas (me ha gustado a mi eso de las colinas, oye...).
 

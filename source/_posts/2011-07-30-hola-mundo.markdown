@@ -10,6 +10,7 @@ meta:
   _edit_last: '1'
 ---
 Supongo que así es como debería empezar todo blog de un desarrollador que se precie: con una frikada :)
+<!-- more -->
 
 Podría dar mil justificaciones a porqué vuelvo a empezar un blog personal: "Para dar rienda suelta a mi (nula) capacidad narrativa", "porque empiezo una nueva etapa en mi vida de la que quiero que todo el mundo se entere", "porque mucha gente me ha pedido que cuente mis próximas andanzas", "porque me sobra el tiempo (ja ja ja)", etc... Y ninguna de ellas sería totalmente cierta, ni totalmente falsa. El verdadero motivo por el que lo hago es un poco más egoísta, aunque esté feo decirlo:
 <blockquote>Tengo una memoria horrible</blockquote>

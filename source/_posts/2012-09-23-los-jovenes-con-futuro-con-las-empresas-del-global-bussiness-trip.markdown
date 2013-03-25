@@ -15,6 +15,7 @@ meta:
   _designfolio_portfolio_columns: ''
 ---
 Hace unos días, los chicos del programa "Jóvenes con Futuro" tuvimos la oportunidad de asistir a uno de nuestros primeros eventos de "networking" organizado por StepOne, el Spain Tech Center y el ICEX a colación de la visita de un grupo de empresas tecnológicas españolas a San Francisco dentro del marco del programa <a href="http://globalbusinesstrip.org/" target="_blank">Global Bussiness Trip</a>.
+<!-- more -->
 
 Debo agradecer a StepOne esta gran oportunidad que se nos brindó de entrar en contacto con empresas españolas, todas del sector tecnológico aunque de muy diversa índole, y de poder entablar conversación en un ambiente amigable y distendido con grandes empresarios que sin duda enriquecieron nuestra cultura emprendedora y aportaron nuevo valor a nuestro haber profesional.
 
