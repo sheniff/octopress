@@ -13,7 +13,7 @@ $(document).ready(function(){
     loadSelect: function(){
       $('#content').on('click', '.tile.interactive', function(e){
         e.preventDefault();
-        $(e.currentTarget).toggleClass('selected');
+        $(e.currentTarget).removeClass('delay1 delay2 delay3 delay4').toggleClass('selected');
       })
     }
 
