@@ -10,6 +10,22 @@ html {
 //   display: none;
 // }
 
+.bg-red {
+  background-color: rgb(255,0,0);
+}
+
+.bg-green {
+  background-color: rgb(0,255,0);
+}
+
+.bg-blue {
+  background-color: rgb(0,0,255);
+}
+
+.bg-yellow {
+  background-color: rgb(255,255,0);
+}
+
 header {
   background: rgb(155,155,155); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(155,155,155,1) 88%, rgba(191,191,191,1) 100%); /* FF3.6+ */
@@ -64,6 +80,7 @@ header {
 
 #main {
   #content {
+    position: relative;
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
@@ -166,19 +183,6 @@ header {
         z-index: 1;
         opacity: 0;
         border-radius: 4px;
-
-        &.red {
-          background-color: rgb(255,0,0);
-        }
-        &.green {
-          background-color: rgb(0,255,0);
-        }
-        &.blue {
-          background-color: rgb(0,0,255);
-        }
-        &.yellow {
-          background-color: rgb(255,255,0);
-        }
       }
 
       &:hover .veil {
@@ -220,15 +224,27 @@ header {
 
 #the_block {
   background-color: red;
-  // position: absolute;
-  // top: 0;
-  // left: 0;
+  position: absolute;
+  z-index: 2;
 
-  .hidden {
+  // -webkit-transition: -webkit-transform 300ms ease-in-out;
+  //    -moz-transition: -moz-transform 300ms ease-in-out;
+  //     -ms-transition: -o-transform 300ms ease-in-out;
+  //      -o-transition: -ms-transform 300ms ease-in-out;
+  //         transition: transform 300ms ease-in-out; /* custom */
+
+  &.growing {
+    -webkit-transition-property: -webkit-transform, top, left, width, height;
+    -webkit-transition-duration: 300ms, 300ms, 300ms, 300ms, 300ms;
+    -webkit-transition-delay: 300ms, 600ms, 600ms, 600ms, 600ms;
+  }
+
+  &.hidden {
     -moz-transform: rotateY(90deg);
     -webkit-transform: rotateY(90deg);
     -o-transform: rotateY(90deg);
     -ms-transform: rotateY(90deg);
     transform: rotateY(90deg);
   }
+
 }
