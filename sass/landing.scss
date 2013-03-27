@@ -6,6 +6,10 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+// .hidden {
+//   display: none;
+// }
+
 header {
   background: rgb(155,155,155); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(155,155,155,1) 88%, rgba(191,191,191,1) 100%); /* FF3.6+ */
@@ -132,11 +136,11 @@ header {
       }
 
       &.selected {
-        -moz-transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        transform: rotateY(180deg);
+        -moz-transform: rotateY(90deg);
+        -webkit-transform: rotateY(90deg);
+        -o-transform: rotateY(90deg);
+        -ms-transform: rotateY(90deg);
+        transform: rotateY(90deg);
       }
 
       &.double {
@@ -211,5 +215,20 @@ header {
     #about {
       background-image: url(https://sphotos-b.xx.fbcdn.net/hphotos-ash4/430378_10150835251852571_583992173_n.jpg);
     }
+  }
+}
+
+#the_block {
+  background-color: red;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+
+  .hidden {
+    -moz-transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    transform: rotateY(90deg);
   }
 }
