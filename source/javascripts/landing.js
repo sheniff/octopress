@@ -56,16 +56,24 @@ $(document).ready(function(){
     block: $('#the_block'),
 
     place: function($ref) {
+      var bg_regex = /(bg-.*)\s*$/,
+          new_bg_class = $ref.find('.veil').attr('class').match(bg_regex) && $ref.find('.veil').attr('class').match(bg_regex)[1],
+          old_bg_class = this.block.attr('class').match(bg_regex) && this.block.attr('class').match(bg_regex)[1];
+
+      if(old_bg_class && old_bg_class.length)
+        this.block.removeClass(old_bg_class);
+
       this.block
         .height($ref.height())
         .width($ref.width())
-        .offset($ref.offset())
-        .addClass('growing');
+        .addClass(new_bg_class)
+        .offset($ref.offset());
     },
 
     show: function() {
       var self = this;
       this.block.one(whichTransitionEvent(), function() {
+        self.block.addClass('growing');
         self.expand();
       });
 
@@ -78,11 +86,11 @@ $(document).ready(function(){
 
     expand: function($block) {
       this.block
-        .offset({
-          top: 0,
+        .css({
+          top: 10,
           left: 0
         })
-        .width(760)
+        .width('100%')
         .height(570);
     }
 

@@ -84,7 +84,7 @@ header {
     max-width: 768px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px 0 10px 10px;
+    padding-top: 10px;
 
     .wrapper {
       width: 188px;
@@ -223,9 +223,13 @@ header {
 }
 
 #the_block {
-  background-color: red;
   position: absolute;
   z-index: 2;
+  border-radius: 4px;
+
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 300ms;
+  -webkit-transition-delay: 300ms;
 
   // -webkit-transition: -webkit-transform 300ms ease-in-out;
   //    -moz-transition: -moz-transform 300ms ease-in-out;
@@ -236,7 +240,7 @@ header {
   &.growing {
     -webkit-transition-property: -webkit-transform, top, left, width, height;
     -webkit-transition-duration: 300ms, 300ms, 300ms, 300ms, 300ms;
-    -webkit-transition-delay: 300ms, 600ms, 600ms, 600ms, 600ms;
+    -webkit-transition-delay: 0ms;
   }
 
   &.hidden {
