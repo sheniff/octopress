@@ -31,6 +31,7 @@ $(document).ready(function(){
     },
 
     rotate: function(e) {
+      e.preventDefault();
       var $target = $(e.currentTarget),
           $card = $target.find('.card');
 
