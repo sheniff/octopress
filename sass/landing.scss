@@ -82,6 +82,20 @@ header {
     margin-right: auto;
     padding-top: 10px;
 
+    -webkit-transition: all 1s ease-in-out;
+       -moz-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+         -o-transition: all 1s ease-in-out;
+            transition: all 1s ease-in-out; /* custom */
+
+    &.rotate {
+      -webkit-transform: rotateY(90deg);
+      -moz-transform: rotateY(90deg);
+      -ms-transform: rotateY(90deg);
+      -o-transform: rotateY(90deg);
+      transform: rotateY(90deg);
+    }
+
     .wrapper {
       width: 188px;
       display: inline-block;
@@ -269,14 +283,27 @@ header {
     }
 }
 
-.card {
-  width: 100%;
-  height: 100%;
-  background-color: #adadad;
-  z-index: 1;
+#easter_board {
   position: absolute;
+  top: 10px;
+  left: 0;
+  background-color: white;
+  z-index: 10;
 
   &.hidden {
     display: none;
   }
+
+  .face {
+    width: 100%;
+    height: 100%;
+    background-color: #adadad;
+    z-index: 1;
+    position: absolute;
+
+    &.hidden {
+      display: none;
+    }
+  }
 }
+

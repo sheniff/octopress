@@ -1,18 +1,18 @@
+var whichTransitionEvent = function(){
+  var t, el = document.createElement('fakeelement'),
+      transitions = {
+        'transition':'transitionend',
+        'OTransition':'oTransitionEnd',
+        'MozTransition':'transitionend',
+        'WebkitTransition':'webkitTransitionEnd'
+      };
+
+  for(t in transitions)
+    if( el.style[t] !== undefined )
+      return transitions[t];
+};
+
 $(document).ready(function(){
-
-  var whichTransitionEvent = function(){
-    var t, el = document.createElement('fakeelement'),
-        transitions = {
-          'transition':'transitionend',
-          'OTransition':'oTransitionEnd',
-          'MozTransition':'transitionend',
-          'WebkitTransition':'webkitTransitionEnd'
-        };
-
-    for(t in transitions)
-      if( el.style[t] !== undefined )
-        return transitions[t];
-  };
 
   var tiles = {
     $container: $('#content'),

@@ -17,30 +17,30 @@ $(document).ready(function(){
         window.setTimeout(function() {
           easter.courtain.addClass('hidden');
           $('#easter_q').text('?');
-          easter.memory();
+          Memory.generate();
         }, 500);
       });
-    },
+    }
+  };
 
-    memory: function() {
-      $('.tile').each(function(i,e) {
-        var card = $('<div class="card hidden"></div>');
-        $(e).append(card);
-      });
-      $('#content').off('click').on('click', '.tile', easter.rotate);
-    },
+  Memory = {
+    generate: function() {
+      var $board = $('<div id="easter_board" class="hidden">'),
+          $container = $('#content'),
+          i;
 
-    rotate: function(e) {
-      e.preventDefault();
-      var $target = $(e.currentTarget),
-          $card = $target.find('.card');
 
-      $target
-        .addClass('selected')
-        .one(whichTransitionEvent(), function() {
-          $card.removeClass('hidden');
-          $target.removeClass('selected');
-        });
+      for(i = 0; i < 16; i++){
+        $board.append('<div class="tile back"><div class="face hidden"></div></div>');
+      };
+      $container
+        .append($board)
+        .one(whichTransitionEvent(), $.proxy(function() {
+          $board.removeClass('hidden');
+          $container.removeClass('rotate');
+        },this));
+
+      $container.addClass('rotate');
     }
   };
 
