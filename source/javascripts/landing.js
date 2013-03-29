@@ -30,23 +30,26 @@ $(document).ready(function(){
       return true;
     },
 
+    selectCb: function(e){
+      e.preventDefault();
+      e.stopPropagation();
+
+      var $el = $(this);
+
+      theBlock.place($el);
+      theBlock.context = ($el.attr('id'));
+
+      $el
+        .removeClass('delay1 delay2 delay3 delay4')
+        .addClass('selected');
+
+      theBlock.show();
+    },
+
     enableSelection: function(){
       var self = this;
 
-      this.$container.on('click', '.tile.interactive', function(e){
-        e.preventDefault();
-        e.stopPropagation();
-
-        var $el = $(this);
-
-        theBlock.place($el);
-
-        $el
-          .removeClass('delay1 delay2 delay3 delay4')
-          .addClass('selected');
-
-        theBlock.show();
-      });
+      this.$container.off('click').on('click', '.tile.interactive', this.selectCb);
     }
   };
 
@@ -54,6 +57,7 @@ $(document).ready(function(){
 
   var theBlock = {
     block: $('#the_block'),
+    context: null,
 
     place: function($ref) {
       var bg_regex = /(bg-.*)\s*$/,
@@ -86,15 +90,53 @@ $(document).ready(function(){
 
     expand: function($block) {
       this.block
-        .css({
-          top: 10,
-          left: 0
-        })
+        .one(whichTransitionEvent(), $.proxy(function() {
+          this.block.removeClass('growing');
+          this.printPage();
+        },this))
+        .css({ top: 10, left: 0 })
         .width('100%')
         .height(570);
-    }
+    },
 
+    printPage: function() {
+      console.log('using', this.context);
+      page.load(
+        this.context+'.html',
+        $.proxy(function(data) {
+          // this.block.html($(data).find('article').html());
+          console.log("gotcha!", $.type(data), data.match(/\<article.*\>.*\<\/article\>/));
+        },this),
+        function(xhr) {
+          alert('something went wrong...(temporary annoying answer xD)');
+        }
+      );
+    }
   };
+
+  page = {
+    cache: {},
+    load: function(url, success, error) {
+      if(this.cache[url])
+        success(this.cache[url]);
+      else {
+
+        var self = this;
+        $.ajax({
+          url: url,
+          type: 'GET',
+          dataType: 'html',
+          data: {},
+          success: function(data, textStatus, xhr) {
+            self.cache[url] = data;
+            success(data);
+          },
+          error: error
+        });
+
+      }
+    }
+  }
 
   // Init
   tiles.show();

@@ -6,10 +6,6 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-// .hidden {
-//   display: none;
-// }
-
 .bg-red {
   background-color: rgb(255,0,0);
 }
@@ -250,5 +246,37 @@ header {
     -ms-transform: rotateY(90deg);
     transform: rotateY(90deg);
   }
+}
 
+#easter_courtain {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+  top: 0;
+  left: 0;
+  color: #fff;
+  z-index: 4;
+
+    &.hidden {
+      display: none;
+    }
+
+    #easter_q {
+      font-size: 300px;
+      text-align: center;
+      margin-top: 15%;
+    }
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: #adadad;
+  z-index: 1;
+  position: absolute;
+
+  &.hidden {
+    display: none;
+  }
 }
