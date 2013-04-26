@@ -1,11 +1,13 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+
 <!DOCTYPE html>
 <!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
 <!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
 <head>
+
   <meta charset="utf-8">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
 
   {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
@@ -16,6 +18,8 @@
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical }}">
@@ -29,8 +33,11 @@
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
   {% include custom/head.html %}
   {% include google_analytics.html %}
+
 </head>
+
 <body id="landing">
+
   <header role="banner">
     <hgroup>
       <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
@@ -39,44 +46,58 @@
       {% endif %}
     </hgroup>
   </header>
+
   <nav role="navigation"></nav>
+
   <div id="main">
+
     <div id="content">
+
       <div id="about" class="tile interactive loading">
         <div class='veil bg-red'></div>
         <div class="title"><span>The Guy</span></div>
       </div>
+
       <div id="work" class="tile interactive loading">
         <div class='veil bg-red'></div>
         <div class="title"><span>The Work</span></div>
       </div>
+
       <div id="hobbies" class="tile interactive loading double">
         <div class='veil bg-green'></div>
         <div class="title"><span>The Hobbies</span></div>
       </div>
+
       <div class="wrapper squared">
+
         <div id="aiesec" class="tile interactive loading double">
           <div class='veil bg-blue'></div>
           <div class="title"><span>The AIESEC</span></div>
         </div>
+
         <div id="technologies" class="tile interactive loading">
           <div class='veil bg-yellow'></div>
           <div class="title"><span>The Techs</span></div>
         </div>
+
         <a href="/blog" title="The Blog">
           <div class="tile loading">
             <div class='veil'></div>
             <div class="title"><span>The Blog</span></div>
           </div>
         </a>
+
       </div>
+
       <div class="tile loading squared">
         <div class='veil'></div>
         <div class="title"><span>The Twitter</span></div>
       </div>
+
       <div id="the_block" class="hidden"></div>
     </div>
   </div>
+
   <footer role="contentinfo"></footer>
 
   <script src="{{ root_url }}/javascripts/landing.js" type="text/javascript"></script>
